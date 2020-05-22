@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/monochrome-photo-of-math-formulas-3729557.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.counter-box {
+    flex: 0 0 70%;
+    text-align: center;
+    border: 3px solid grey;
+    font-weight: bold;
+    padding: 1rem;
+    box-shadow: 3px 3px 10px 10px black;
+}
+
+.counter {
+    font-size: 6rem;
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 2rem;
+    padding: .5rem;
+    margin: .5rem .25rem;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #58504d;
+    box-shadow: 0px 1px #001221;
+}
+.btn:hover {
+    background: #636566;
+    color: #fff;
+}
+.btn:active {
+    box-shadow: none;
+}
